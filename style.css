@@ -355,6 +355,9 @@ body {
 /* media section */
 
 @media (max-width: 376px) {
+  .body {
+    overflow: hidden;
+  }
   .navbar-collapse {
     background-size: cover;
     background-position: center;
@@ -423,6 +426,6 @@ body {
     font-size: 1.5rem;
   }
   .strip-last p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
