@@ -249,7 +249,7 @@ body {
 .newsfeed-card {
   margin: 2.5rem 2rem;
   width: 16rem;
-  height: 18.5rem;
+  height: 19rem;
   border-radius: 2px;
 }
 .newsfeed-card img {
@@ -355,8 +355,8 @@ body {
 /* media section */
 
 @media (max-width: 376px) {
-  .body {
-    overflow: hidden;
+  * {
+    overflow-x: hidden;
   }
   .navbar-collapse {
     background-size: cover;
